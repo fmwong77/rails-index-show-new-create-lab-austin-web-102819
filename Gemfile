@@ -40,3 +40,7 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
 end
+
+group :development do
+  gem 'web-console'
+end
